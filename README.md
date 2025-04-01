@@ -40,7 +40,7 @@ YouTube link here.
 I don't know what else to explain deeper. Make sure you plug in the Pi, give it a minute to boot, then turn on the printer and probably hit firmware restart in fluidd. 
 
 
-
+---------------
 
 **Printer Tidbits/ Hardware:**
 
