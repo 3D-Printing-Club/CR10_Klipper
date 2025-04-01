@@ -6,7 +6,10 @@ The CR-10 is currently running off a SKR Mini E3 V3 on klipper.
 It is running a E3D Titan extruder with either a 2.85 or 1.75mm V6 hotend. 
 The extrusion system is the Hero ME 7 with some assortment of parts. (https://www.printables.com/model/39322-hero-me-gen7-platform-release4)
 
+
 ---------------
+
+**Explanation of Klipper and the foundation of the software/firmware:**
 
 The foundation of the CR-10 rn is the Raspberry Pi that runs the website and most of the code and then the MCU which is the control board that controls the motors. We have the Raspi 4 with a SKR Mini E3 V3 running klipper. On this GitHub are the config files for the printer that have all the code that is unique to this printer. There are a lot of little things that are a part of this process but you shall eventually learn when you read all of these docs. 
 
@@ -33,12 +36,18 @@ But trust the code and look up something before you change it. There's a lot to 
 
 YouTube link here.
 
-I don't know what else to explain deeper. Make sure you  plug in the Pi, give it a minute to boot, then turn on the printer and probably hit firmware restart in fluidd. 
+I don't know what else to explain deeper. Make sure you plug in the Pi, give it a minute to boot, then turn on the printer and probably hit firmware restart in fluidd. 
 
+
+
+
+**Printer Tidbits/ Hardware:**
 
 Hardware wise it should be pretty simple. The HeroME system is a lot and paywalled for a tutorial, so I'll just include the parts that I printed for it and hope you can piece it together. The Titan extruder on this printer can be switched between 1.75 and 2.85 mm filament because the lab has around 20 spools just sitting around that we want to use up. We probably spent more money fixing the printer than the spools but that's not the point. To switch it from 2.85 to 1.75, all you need to do it switch the tube between the extruder and hotend. Switch the hotend out for the one you'd like. And change the software in Klipper, and Prusa Slicer's filament settings. Maybe a little bit of calibration but that's all. 
 
-We have a 4020 Nocuta Fan to cool the hotend and a 5015 Blower fan to cool the parts. With a E3D V6 hotend system currently running a Nozzle X nozzle. A BLTouch for the bed leveling system and PEI bed. 
+We have a 4020 Nocuta Fan to cool the hotend and a 5015 Blower fan to cool the parts. With a E3D V6 hotend system currently running a 0.6 Brass nozzle. A BLTouch for the bed leveling system and PEI bed. 
+
+The main issue of the machine right now is the hotend and movement system. I don't think the pritner can print faster than 5 mm^3/s without issues in appearance which is annoying, but can be fixed later on. The motion system is limiting it a little, but right now it seems to be that the 3mm fillament is slowing the machine down a lot. The motion system and E3D v6 should both be able to run faster than 5mm^3. Once we run out we will really see.
 
 - Dev
 
