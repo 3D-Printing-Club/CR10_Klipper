@@ -6,6 +6,7 @@ The CR-10 is currently running off a SKR Mini E3 V3 on klipper.
 It is running a E3D Titan extruder with either a 2.85 or 1.75mm V6 hotend. 
 The extrusion system is the Hero ME 7 with some assortment of parts. (https://www.printables.com/model/39322-hero-me-gen7-platform-release4)
 
+This has the Prusa Slicer Profiles, The Klipper configs and some other stuff? The most up to date Klipper configs are under the Klipper section, not under Main. IDK/ I dont want to fix that right now since it requires me to SSH into the Pi.
 
 ---------------
 
