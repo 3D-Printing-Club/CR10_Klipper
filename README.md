@@ -9,6 +9,9 @@ The extrusion system is the Hero ME 7 with some assortment of parts. (https://ww
 This has the Prusa Slicer Profiles, The Klipper configs and some other stuff? The most up to date Klipper configs are under the Klipper branch, not under Main. IDK/ I dont want to fix that right now since it requires me to SSH into the Pi.
 
 ---------------
+Video for most of the basics i think by Lost in Tech
+
+- https://youtu.be/2nH6lfZ-WvU?si=tElpfwFHICjxLoYV
 
 **Explanation of Klipper and the foundation of the software/firmware:**
 
